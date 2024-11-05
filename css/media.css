@@ -1,0 +1,170 @@
+@media (max-width: 580px) {
+  #header-home .header-content {
+    padding-top: 3rem;
+  }
+}
+
+@media (max-width: 800px) {
+  #header-home {
+    height: 30rem;
+  }
+  #header-home .header-content {
+    padding-top: 5rem;
+  }
+
+  .docs-main .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #header-main-position {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+  }
+  #main-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  #main-nav #logo {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  #main-nav li {
+    padding: 1rem;
+  }
+  #header-home {
+    height: 10rem;
+    border-bottom: 3px solid #5f60aa;
+  }
+  #header-home .header-content {
+    display: none;
+  }
+  #header-inner {
+    height: 10rem;
+  }
+
+  #home-a {
+    margin-top: 32%;
+  }
+
+  #home-a .specials,
+  #home-b .stats,
+  #home-c .process,
+  #about-d .testimonials,
+  .items {
+    grid-template-columns: 1fr;
+  }
+
+  #home-a .specials div {
+    border-bottom: 1px #f4f4f4 solid;
+    padding-bottom: 16px;
+  }
+
+  #home-a .specials div:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  #home-b .stats div {
+    padding: 2rem 0 1rem 0;
+  }
+
+  #about-a .about-info {
+    display: grid;
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "aw1"
+      "aw2"
+      "aw3";
+    gap: 1.2rem;
+  }
+
+  #about-b .container-video {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #about-b .container-video .video {
+    margin: 10px auto;
+    max-width: 300px;
+  }
+
+  #about-a {
+    margin-top: 32%;
+  }
+
+  #work-a {
+    margin-top: 25%;
+  }
+
+  #contact-a {
+    margin-top: 32%;
+  }
+
+  .docs-main .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .docs-main .card {
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: scale 0.5s ease-in-out;
+  }
+
+  .docs-main .card li {
+    font-size: 17px;
+    padding: 25p 5px;
+    margin: 10px 20px;
+    border-bottom: 2.5px solid var(--border-color);
+  }
+  .docs-main .card .btn {
+    background-color: #047aed;
+  }
+
+  #contact-a .text-fields {
+    display: grid;
+    grid-template-areas:
+      "name"
+      "email"
+      "subject"
+      "number"
+      "text";
+    gap: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  #contact-b .contact-info {
+    grid-template-columns: 1fr;
+  }
+  #contact-b .contact-info div {
+    padding-bottom: 20px;
+    margin-bottom: 1rem;
+    border-bottom: 1px #333 solid;
+  }
+  #contact-c h1 {
+    font-size: 30px;
+  }
+
+  #main-footer {
+    height: 10rem;
+  }
+  #main-footer .footer-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    height: 10rem;
+  }
+
+  .footer-content .social {
+    margin-top: 20px;
+  }
+}

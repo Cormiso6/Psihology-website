@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/config.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>Work</title>
+  </head>
+  <body>
+    <!--  header -->
+    <header id="header-position">
+      <div id="header-inner">
+        <div class="container">
+          <nav id="main-nav">
+            <h1 id="logo" class="logo">
+              <a href="work.html">GLOBAL PSY ACADEMY</a>
+            </h1>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="work.html">Work</a></li>
+              <li><a href="contact.html" class="current">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Section A: Contact Form -->
+    <section id="contact-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">КОНТАКТИ</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Тук може да зададете вашите въпроси и свържите с нас</p>
+        <form action="#">
+          <div class="text-fields">
+            <input
+              type="text"
+              placeholder="Name"
+              id="name"
+              class="text-input name-input"
+              required />
+            <input
+              type="email"
+              placeholder="Email"
+              id="email"
+              class="text-input email-input"
+              required />
+            <input
+              type="text"
+              placeholder="Subject"
+              id="subject"
+              class="text-input subject-input" />
+            <input
+              type="text"
+              placeholder="Phone Number"
+              id="phone"
+              class="text-input phone-input" />
+            <textarea
+              type="text"
+              placeholder="Enter Message"
+              id="message"
+              class="text-input message-input"></textarea>
+            <div class="my-2">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+          </div>
+          <button type="submit" class="btn-dark">Изпратете съобщение</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Section-B -->
+    <sextion id="contact-b" class="py-3 bg-dark">
+      <div class="container">
+        <div class="contact-info">
+          <div>
+            <a href="mailto:mitko1mittrew@yahoo.com">
+              <i class="fas fa-envelope fa-2x"></i>
+              <h3>Email</h3>
+              <p>mitko1mittrew@abv.bg</p>
+            </a>
+          </div>
+          <div>
+            <i class="fas fa-phone fa-2x"></i>
+            <h3>Phone</h3>
+            <p>0898411675</p>
+          </div>
+          <div>
+            <a href="#map">
+              <i class="fas fa-address-card fa-2x"></i>
+              <h3>Address</h3>
+              <p>Mritza 136</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </sextion>
+
+    <!-- Section-c -->
+    <section id="contact-c" class="bg-main py-4">
+      <div class="container">
+        <h1 class="py-1">Lets Start Your Next Project</h1>
+        <iframe
+          id="map"
+          class="map my-2"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2957.669550800115!2d24.74688217665974!3d42.15735767121256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14acd190a371f1cd%3A0xba91dd32732ffc8!2z0JzQtdC20LTRg9C90LDRgNC-0LTQtdC9INC_0LDQvdCw0LjRgCDQn9C70L7QstC00LjQsg!5e0!3m2!1sbg!2sbg!4v1727865420229!5m2!1sbg!2sbg"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright: &COPY; 2022, All Right Reserved</p>
+        <div class="social">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js/app.js"></script>
+  </body>
+</html>

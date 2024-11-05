@@ -1,0 +1,134 @@
+:root {
+  --website-width: 1280px;
+  --main-color: #b5b8e7;
+  --border-color: #b6b6cc;
+  --light-color: #f4f4f4;
+  --medium-color: #ccc;
+  --dark-color: #333;
+  --logo-border: rgb(66, 46, 119);
+  --bg-image: url("/dist/img/sea\ img.jpeg");
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+
+.bg-main {
+  background: #5f60aa;
+}
+
+.bg-dark {
+  background: #333;
+}
+
+.bg-light {
+  background: #f4f4f4;
+}
+
+.bg-medium {
+  background: #ccc;
+}
+
+.logo a {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px #f4f4f4;
+}
+.fas-b {
+  padding: 20%;
+  border-radius: 60%;
+}
+
+.btn-main,
+.btn-light {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-light {
+  color: #333;
+  background-color: #f4f4f4;
+  box-shadow: 0 0 10px #f4f4f4;
+}
+
+.btn-light:hover {
+  box-shadow: none;
+}
+
+.btn-dark {
+  background: #333;
+  box-shadow: 0 0 10px #333;
+  border: none;
+}
+
+.btn-dark:hover {
+  box-shadow: none;
+}
+
+.btn-main {
+  color: #f4f4f4;
+  background-color: #333;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.contact-info div {
+  text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.17);
+  font-size: x-large;
+}
